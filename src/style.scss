@@ -1,0 +1,54 @@
+.formContainer{
+    background-color: papayawhip;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .formWrapper{
+        background-color: lightcoral;
+        padding: 20px 60px;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+
+        .logo{
+            color: darkred;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .title{
+            color: darkred;
+            font-size: 18px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            input{
+                padding: 15px;
+                border: none;
+                border-radius: 15px;
+                width: 250px;
+                border-bottom: 1px solid papayawhip;
+                &::placeholder{
+                    color: rgb(175,175,175);
+                }
+                
+            }
+            button{
+                background-color: papayawhip ;
+                color: black;
+                padding: 10px;
+                font-weight: bold;
+                border: none;
+                border-radius: 15px;
+                cursor: pointer;
+            }
+
+        }
+    }
+}
