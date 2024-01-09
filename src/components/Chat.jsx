@@ -2,6 +2,8 @@ import React from "react";
 import Cam from "../image/cam.png"
 import AddUser from "../image/add.png"
 import More from "../image/more.png"
+import Messages from "./Messages"
+import Input from "./Input"
 
 
 const Chat = () => {
@@ -15,6 +17,8 @@ const Chat = () => {
                     <img src={More} alt="" />
                 </div>
             </div>
+            <Messages />
+            <Input />
         </div>
     )
 }
